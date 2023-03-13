@@ -1,12 +1,70 @@
 <!DOCTYPE html>
-<head>
-    <title>
-        Hello, World!
-    </title>
-</head>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Hello, World!
+        </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+    </head>
 
-<body>
-    <div>
-        Hello, Dm!
-    </div>
-</body>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">DM</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">아름재 신청</a>
+                  <a class="nav-link" href="#">마루재 신청</a>
+                  <a class="nav-link" href="#">신청 방법</a>
+                  <a class="nav-link disabled">공지사항</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <div style="text-align: center; margin-top: 100px; margin-bottom: 100px;">
+            <h1> Welcome <strong> DM </strong> ! </h1>
+        </div>
+
+        <table style="margin: auto;">
+            <th style="padding-right: 50px;">
+                <div class="card" style="width: 18rem;">
+                    <img src="arum.png" class="card-img-top" alt="...">
+                    <div class="card-body" style="text-align: center;">
+                      <h5 class="card-title">아름재</h5>
+                      <p class="card-text">아름아름 아름이</p>
+                      <a href="#" class="btn btn-primary">노래 신청하기</a>
+                    </div>
+                  </div>
+            </th>
+            <th>
+                <div class="card" style="width: 18rem;">
+                    <img src="maru.png" class="card-img-top" alt="...">
+                    <div class="card-body" style="text-align: center;">
+                      <h5 class="card-title">마루재</h5>
+                      <p class="card-text">마루마루 마루짱</p>
+                      <a href="#" class="btn btn-primary">노래 신청하기</a>
+                    </div>
+                  </div>
+            </th>
+        </table>
+
+        <footer style="width: 100%; height: 90px; bottom: 0px; position: absolute; border-top: 1px solid white; padding-top: 15px; color: white; font-size: 11px; background-color: black;">
+            <nav>
+                <a href='https://cocoder.tistory.com' target='_blank'>Blog</a> |
+                <a href='https://github.com/cocoder16' target='_blank'>Github</a>
+            </nav>
+            <p>
+                <span>만든 이 : JPS</span><br/>
+                <span>이메일 : cosec@gmail.com</span><br/>
+                <span>Copyright 2023. JPS. All Rights Reserved.</span>
+            </p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+</html>
